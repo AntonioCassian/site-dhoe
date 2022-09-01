@@ -1,0 +1,100 @@
+@media screen and (max-width: 590px) {
+    .cc-responsive{
+        margin: auto auto;
+    }
+    .title{
+        padding: 40px;
+    }
+    .flex{
+        flex-direction: column;
+        padding: 0;
+    }
+    .main{
+        padding: 20px;
+    }
+    .botoes{
+        margin-top: 10px !important;
+        flex-direction: column;
+        gap: 10px;
+        font-size: uppercase;
+    }
+    .botao{
+        margin: 0;
+    }
+    .img-main{
+        width: 100%;
+    }
+    .texto-dhoe{
+        left: 0;
+        width: 100%;
+    }
+    .texto-dhoe p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1;
+    }
+    .text-section{
+        padding: 12px;
+    }
+    .text-img{
+        grid-template-columns: 100% !important;
+    }
+    .perguta > h5{
+        text-align: initial !important;
+    }
+    .resposta p{
+        text-align: left;
+        line-height: 1.5em;
+    }
+
+    li{
+        padding: 0 40px;
+    }
+    .footer-link{
+        padding: 0 40px;
+        margin-bottom: 40px;
+    }
+    .email-cab{
+        width: 100%;
+    }
+    .lista-footer{
+        padding: 0;
+    }
+    /*Sobre nos*/
+    .descrition-sobrenos-body {
+        padding: 10px 21px;
+        line-height: 1.4;
+    }
+}
+@media screen and (max-width: 767px) {
+    .nav-dhoe{
+        display: none;
+    }
+    .line{
+        display: block;
+    }
+    .botoes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .botao{
+        font-size: 14px;
+    }
+    .texto-dhoe{
+        
+    }
+    .text-img{
+        grid-template-columns: 100% 1fr;
+    }
+    .footer-contato ul li{
+        padding: 0 10px;
+    }
+    
+    
+}
+@media screen and (max-width: 745px){
+    .botoes{
+        
+    }
+}

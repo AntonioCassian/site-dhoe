@@ -1,0 +1,752 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+body{
+    font-family: 'emoji', 'Nunito', sans-serif;
+    
+}
+.container{
+    margin: auto 90px;
+}
+.container-largue{
+    margin: auto 210px;
+}
+.container-extra-largue{
+    margin: auto 450px;
+}
+header{
+    background: #fff !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1030;
+}
+.line{
+    display: none;
+}
+.cabecalho-dhoe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 30px;
+}
+.logo-dhoe{
+    height: 45px;
+}
+.logo-dhoe img{
+    width: 109px;
+    height: 40px;
+}
+
+.nav-dhoe{
+
+}
+.nav-dhoe a{
+    color: #2e4052;
+    padding: 8px;
+    
+}
+.nav-dhoe a:hover{
+    padding: 8px;
+    text-decoration: underline;
+}
+.nav-dhoe a svg{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.section-option{
+    background-color: rgb(46, 64, 82);
+    position: relative;
+    margin-top: 77px;
+    /*height: 585px;*/
+}
+.flex{
+    display: flex;
+    flex: 1 1;
+}
+.main{
+    padding-top: 88px;
+    padding-bottom: 100px;
+}
+.title{
+    width: 100%;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    order: 1;
+}
+.title-main-dhoe{
+    margin-top: 20px;   
+}
+.title-main{
+    color: #ffe169;
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 4.5em;
+    width: 100%;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.site-email{
+    color: #fff;
+    font-size: 19px;
+    line-height: 1;
+}
+.site-email span{
+    color: #ffe169;
+    font-size: 20px;
+}
+.botoes{
+    display: block;
+    margin-top: -100px;
+}
+.botao > a{
+    list-style: none !important;
+    color: #2e4052;
+}
+.botao > a:hover{
+    color: #ffe169;
+}
+.botao{
+    border: solid 1px #2e4052;
+    font-size: 20px;
+    background: #ffe169;
+    padding: 10px;
+    border-radius: 9px;
+    border-color: #ffe169 !important;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.botao:hover{
+    background: #2e4052;
+    color: #ffe169;
+    border: 1px solid #ffe169 !important;
+}
+.img-main{
+    order: 2;
+    width: 100%;
+}
+.img-main img{
+    width: 100%;
+}
+
+.texto-section-dhoe{
+    background: #bdd9bf;
+    color: #2e4052;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.texto-dhoe{
+    /*height: 200px;*/
+    position: relative;
+    top: 70px;
+    left: 24%;
+    width: 59%;
+}
+.texto-dhoe p{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.descrition-dhoe{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    justify-content: center;
+}
+
+.cards{
+    max-width: 270px;
+    height: 338px;
+    padding: 32px 48px;
+    margin-bottom: 15px;
+    background: #2e4052;
+    border-radius: 10px;
+}
+.card-title{
+    padding-block: 12px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+.card-title h5{
+    color: #ffe169;
+    font-size: 20px;
+    text-align: center;
+}
+.img-card {
+    display: flex;
+    justify-content: center;
+}
+.img-card img{
+    color: #ffe169;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 20px;
+}
+.card-descrition{
+    height: 140px;
+}
+.card-descrition p{
+    text-align: center;
+    font-size: 19px;
+    color: #bdd9bf;
+    font-family: 'emoji', 'Nunito', sans-serif;
+    line-height: 1.5;
+}
+.dhoes-curt{
+    margin-top: 55px;
+    background: #bdd9bf;
+    padding: 60px 0;
+}
+.text-section{
+    text-align: center;
+    padding: 0 82px;
+    margin: 10px 0;
+}
+.text-section p{
+    color: #2e4052;
+    line-height: 1.3;
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-img{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 1fr;
+    align-items: center;
+}
+.img-section{
+    width: 300px;
+}
+
+/*PERGUNTAS E RESPOSTAS*/
+
+.perg-resp{
+    margin-top: 60px;
+    text-align: justify;
+}
+.perguntas{
+
+}
+li{
+    list-style: none;
+    padding: 0px 120px;
+}
+.title-pergunta{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.title-pergunta h3{
+    font-size: 22px;
+    color: #2e4052;
+}
+.pergunta-resposta{
+    padding: 0 130px;
+}
+.pergunta{
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.pergunta:hover{
+    border: 2px solid #2e4052;
+    border-radius: 2px;
+}
+.pergunta h5{
+    color: #2e4052;
+    font-size: 18px;
+    font-family: 'emoji', 'Nunito', sans-serif;
+
+}
+.resposta{
+    padding: 15px 30px;
+    /*display: none;*/
+}
+.resposta p{
+    font-size: 20px;
+    color: #2e4052;
+    line-height: 1.5;
+    font-family: 'emoji', 'Nunito', sans-serif;
+    text-align: justify;
+}
+
+.doe-footer-cabecalho{
+    background: #bdd9bf;
+}
+.footer-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.footer-link{
+    flex-direction: column;
+    display: flex;
+    gap: 12px;
+}
+.cab-footer{
+
+}
+.cab-footer p{
+    color: #2e4052;
+    font-size: 19px;
+}
+.footer-link a{
+    color: #2e4052;
+    font-size: 14px;
+    font-family: 'emoji', 'Nunito', sans-serif;
+}
+.footer-link a:hover{
+    color: #ffe169;
+}
+
+.area-cliente{
+
+}
+
+.enviar-email{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.enviar-email input{
+    padding: 7px 14px;
+    color: #2e4052;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.enviar-email button{
+    color: #bdd9bf;
+    background: #2e4052;
+    border: 2px solid;
+    border-radius: 7px;
+    padding: 12px 6px;
+    font-weight: 600;
+    width: 50%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.enviar-email button:hover{
+    background: #bdd9bf;
+    color: #2e4052;
+}
+.footer-contato{
+    background: #2e4052;
+    padding: 30px 0;
+}
+svg{
+    font-size: 35px;
+}
+.footer-contato ul{
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
+.footer-contato ul li{
+    margin-bottom: 23px;
+    font-size: 19px;
+    padding: 0 155px;
+    line-height: 1.5;
+}
+
+
+/*SOBRE NOS*/
+.sobrenos{
+    background: #2e4052;
+    margin-top: 80px;
+    padding: 77.5px 0;
+    /*height: 250px;*/
+    font-family: 'emoji', 'Nunito', sans-serif;
+}
+.main-sobrenos{
+    text-align: center;
+}
+.main-sobrenos h1{
+    font-size: 48px;
+    color: #ffe169;
+    margin-bottom: 10px;
+}
+.descrition-sobrenos-body{
+    margin-bottom: 50px;
+}
+.descrition-sobrenos-title{}
+.descrition-sobrenos-title h5{
+    margin-top: 30px;
+    color: #2e4052;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'emoji', 'Nunito', sans-serif;
+}
+.descrition-sobrenos-corp{}
+.descrition-sobrenos-corp p{
+    color: #6C757D;
+    line-height: 2;
+    padding-top: 19px;
+    font-weight: 300;
+}
+/*Abaixo Termo*/
+.abaixo-termo p{
+    color: #fff;
+    font-size: 19px;
+    margin: 19px 0 15px 0px;
+}
+
+/*Cliente*/
+.ar-cliente{}
+.principal{
+
+}
+.principal h1{
+    line-height: 1.2;
+    color: #fff;
+}
+.principal span{
+    content: "";
+    display: block;
+    background-color: #ffe169;
+    height: 3px;
+    width: 50px;
+    margin: 17px auto auto;
+}
+.bts-cliente{
+    margin-top: 30px;
+}
+/*Doar*/
+.doar-dhoe{
+    background-color: #fafbfe;
+}
+.dhoe-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.pesquisa{
+    max-width: 400px;
+}
+.title-doar{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.title-doar h2{
+    color: #2e4052;
+    font-size: 32px;
+}
+.form-pesquisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+.form-pesquisa input{
+    padding: 7px 14px;
+}
+.form-pesquisa button{
+
+}
+.campanhas{}
+.campanhas-dhoe{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.doar-card{
+    max-width: 270px;
+    /*height: 338px;*/
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #fafbfe !important;
+    padding-bottom: 10px;
+}
+.doar-card-picture{
+    width: 100%;
+}
+.doar-card-picture img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.doar-card-title{
+    line-height: 1.5;
+    margin: 25px 0;
+}
+.doar-card-title > h4{
+    color: #2e4052;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.doar-card-title p{
+    color: #bdbec4;
+}
+.doar-card-button{
+    display: flex;
+    justify-content: center;
+}
+.doar-card-button button{
+    display: block;
+    border: 1px solid #ffe169;
+    background: #ffe169;
+    padding: 7px 3px;
+    /*width: 150px;*/
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.doar-card-button a{
+    text-decoration: none !important;
+    color: #2e4052 !important;
+    padding: 7px 14px;
+
+}
+.doar-card-button button:hover{
+    background: #fff;
+    color: #ffe169 !important;
+    border-color: #ffe169;
+}
+.doar-card-button a:hover{
+    color: #ffe169 !important;
+}
+
+/*login*/
+.login{
+    margin-top: 90px;
+}
+.main-entrar-dhoe{
+
+}
+.entrar{
+   padding: 48px;
+   
+}
+
+.entrar h3{
+    font-size: 18px;
+    color: #2e4257;
+    padding: 30px 0;
+}
+.main-login{
+
+}
+form{
+    
+}
+.login-pass{
+    margin-bottom: 25px;
+    line-height: 2;
+}
+.login-pass label, .text-img-login{
+    color: #6C757D;
+    font-size: 15px;
+}
+.login-pass a{
+    color: #6C757D;
+    font-size: 10px;
+    float: right;
+    margin-top: 8px;
+}
+.login-pass input{
+    padding: 7px 14px;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid  #dee2e6;
+    border-radius: 5px;
+    outline: none;
+}
+.botao-form{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.botao-form-escuro{
+    color: #dee2e6;
+    background: #2e4052; 
+    border: 1px solid rgb(46, 64, 82);
+    line-height: 1.5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+.botao-form-escuro:hover{
+    background: #fff;
+    color: #2e4052;
+}
+.div-img, .text-cadast{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.div-img img{
+    width: 30px;
+    margin-top: 16px;
+}
+.text-cadast p{
+    color: #6C757D;
+    font-size: 14px;
+}
+.text-cadast p > a{
+    color: #6C757D;
+}
+
+/*CADASTRO*/
+.main-cad{
+    margin-bottom: 20px;
+}
+.sex-ar{
+    display: inline-flex;
+    margin-right: 10px;
+    gap: 1.3px;
+    cursor: pointer;
+}
+.sex-ar input{
+    width: 10px;
+    cursor: pointer;
+}
+.sex-ar label{}
+
+/*SAIBA MAIS*/
+.saiba_mais-menu{}
+.background{
+    background-image: url(https://dhoe.com.br/app/images/campanha-cover.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+}
+.two-img{
+    margin-bottom: 30px;
+}
+.saibaMais-img{
+    display: flex;
+}
+.saibaMais-img img{
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -75px;
+}
+.text{
+    text-align: center;
+}
+.text p{
+    font-size: 16px;
+    color: #6C757D;
+    line-height: 1.5;
+}
+.dhoe-form-saiba-mais{
+
+}
+.area-button{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.barra-dhoe{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-bottom: 30px;
+}
+.barra-dhoe input{
+    min-width: 240px;
+}
+.form-but{
+    width: auto;
+}
+.descrition-campanha{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.descrition-campanha p{
+    font-size: 19px;
+    color: #2e4052;
+}
+.valores{
+    text-align: center;
+    margin-top: 30px;
+}
+.valores p{
+    color: #2e4257;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.bruto{
+    font-size: 10px;
+}
+.img-principal-campanha{
+    text-align: center;
+    margin-top: 30px;
+    height: 390px;
+    margin-bottom: 60px;
+}
+.img-principal-campanha img{
+    height: 390px;
+}
+
+.tempo{
+    background: #2e4052;
+}
+.contador{
+    display: flex;
+    justify-content: space-between;
+}
+.encerramento{
+    text-align: center;
+    color: #bdd9bf;
+}
+.encerramento h2{
+    font-size: 1.8em;
+}
+.c-dias{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.dias{
+    font-size: 15px;
+}
+.compartilhar-links{
+    padding: 40px 0;
+}
+.title-links{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title-links h2{
+    color: #2e4257;
+    font-size: 32px;
+}
+.img-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-links a{
+
+}
+.img-links a img{
+    width: 30px;
+}
+.error-text{
+    margin-top: 5px;
+    font-size: 12px;
+    color: red;
+}
