@@ -5,7 +5,11 @@
         "nomeCampanha": "Henrique",
         "descricao": "Campanha tem a finalidade de ajudar no pagamento do tratamento do Bocoió.",
         "encerramento": "21/04/2023",
-        "link":"./saibaMais.html"
+        "link":"./saibaMais.html",
+        "organizador": "Sandoval Teodosio de Lima",
+        "valor": 1.200,
+        "email": "sandoval@gmail.com",
+        "senha": "12345678"
     },
     {
         "id": 2,
@@ -14,33 +18,45 @@
         "descricao": "Campanha tem a finalidade de ajudar no pagamento do tratamento do Bocoió.",
         "encerramento": "21/04/2023",
         "link": "./saibaMais.html",
-        "organizador": "Sandoval Teodosio de Lima"
+        "organizador": "Sandoval Teodosio de Lima",
+        "valor": 1.200,
+        "email": "joao@gmail.com",
+        "senha": "12345678"
     },
     {
         "id": 3,
         "imagem": "https://fundacaosvposs.com.br/images/doe.png",
-        "nomeCampanha": "AAAAAA",
-        "descricao": "Campanha tem a finalidade de ajudar no pagamento do tratamento do Bocoió.",
+        "nomeCampanha": "Antônio",
+        "descricao": "Campanha tem a finalidade de ajudar no pagamento do tratamento de Antônio.",
         "encerramento": "21/04/2023",
         "link":"./saibaMais.html",
-        "organizador": "Sandoval Teodosio de Lima"
+        "organizador": "Sandoval Teodosio de Lima",
+        "valor": 1.200,
+        "email": "lucas@gmail.com",
+        "senha": "12345678"
     },
     {
         "id": 4,
         "imagem": "https://fundacaosvposs.com.br/images/doe.png",
-        "nomeCampanha": "BBBBBB",
-        "descricao": "Campanha tem a finalidade de ajudar no pagamento do tratamento do Bocoió.",
+        "nomeCampanha": "Henrique",
+        "descricao": "Campanha tem a finalidade de ajudar no pagamento do tratamento de Henrique.",
         "encerramento": "21/04/2023",
         "link":"./saibaMais.html",
-        "organizador": "Sandoval Teodosio de Lima"
+        "organizador": "Sandoval Teodosio de Lima",
+        "valor": 1.200,
+        "email": "antonio@gmail.com",
+        "senha": "12345678"
     },
     {
         "id": 5,
         "imagem": "https://fundacaosvposs.com.br/images/doe.png",
-        "nomeCampanha": "HcCCCCCCc",
-        "descricao": "Campanha tem a finalidade de ajudar no pagamento do tratamento do Bocoió.",
+        "nomeCampanha": "João Paulo",
+        "descricao": "Campanha tem a finalidade de ajudar no pagamento do tratamento de João Paulo.",
         "encerramento": "21/04/2023",
         "link":"./saibaMais.html",
-        "organizador": "Sandoval Teodosio de Lima"
+        "organizador": "Sandoval Teodosio de Lima",
+        "valor": 1.200,
+        "email": "henrique@gmail.com",
+        "senha": "12345678"
     }
 ]

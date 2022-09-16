@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+body{
+    background: #fafbfe;
+}
+
+.mob-principal{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
+.mobile{
+    display: none;
+    cursor: pointer;
+}
+.mobile div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+.container{
+
+}
+
+.cabecalho-dhoe{
+    position: fixed;
+    background: #2e4052;
+    padding: 10px 25px;
+    /*width: 20vw;*/
+    
+}
+.logo-dhoe-log img{
+    width: 75px;
+    height: 59px;
+    left: 24%;
+    right: 5%;
+    margin-bottom: 7px;
+}
+small{
+    color: #fff;
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 10px;
+    margin: 7px 0px 15px 5px;
+}
+.divisão{
+
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.navDhoe{
+    background: #2e4052;
+    padding-top: 0;
+    width: 20vw;
+    height: 100vh;
+}
+.link{
+    font-family: 'Shrikhand', sans-serif;
+    color: #fff;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+i{
+    font-size: 30px;
+}
+
+
+.principal{
+    float: right;
+    width: calc(100% - 370px);
+    position: relative;
+}
+.principal h3{
+    color:#6C757D;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.englobamentoCompleto{
+    width: 100%;
+}
+.englobamento{
+    background: #fff;
+    padding: 15px 15px 10px;
+    width: 81%;
+}
+.englobamento h4{
+    color:#6C757D;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+.lista{
+    
+}
+.item-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: #6C757D;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nome-campanha{
+    display: block;
+}
+.btn{
+    border: 1px solid #2e4052;
+    border-radius: 5px;
+    background: #2e4052;
+    padding: 7px 14px;
+    color: #bdd9bf;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #fff;
+    color: #2e4052;
+}
+
+
+
+
+
+
+/*Criar Campanha*/
+
+.form-text{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #6C757D;
+    font-size: 14px;
+    line-height: 1rem;
+}
+.form-inputs{
+    margin-bottom: 25px;
+}
+.form-inputs textarea{
+    width: 100%;
+}
+.form-inputs label{
+    margin-bottom: 20px;
+    color: #6C757D;
+    font-size: 14px;
+}
+.form-inputs small{
+    color: #6C757D;
+}
+.form-inputs input{
+    width: 100%;
+    padding: 7px 14px;
+    border: 1px solid  #dee2e6;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 2px;
+}
+.check-input{
+    margin-bottom: 15px;
+}
+.check-input a{
+    text-decoration: none;
+    color: #2e4052;
+}
+.check-input input{
+    border: 1px solid  #dee2e6;
+}
+.check-input label{
+    margin-bottom: 1px;
+    color: #6C757D;
+    font-size: 14px;
+}
+
+.btn-yellow{
+    background: #ffe169;
+    border: 1px solid #ffe169;
+    color: #2e4052;
+}
+.btn-yellow:hover{
+    background: #fff;
+    color: #ffe169;
+}
+
+/*Troca Senha*/
+.muda-senha{
+    
+}
+.muda-senha label{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 999px){
+    .c-responsivo{
+        margin: auto 40px;
+    }
+    .logo-dhoe-log{
+        display: none;
+    }
+    .cabecalho-dhoe{
+        width: 100%;
+        height: 70px;
+        position: relative;
+        padding: 0 20px;
+    }
+    .principal{
+        width: calc(100% - 45px)!important;
+        position: inherit;
+    }
+    .navDhoe.active.principal{
+        margin: auto 25vw;
+    }
+    .mob-principal{
+        display: flex;
+        padding: 12px;
+    }
+    
+    .mob-principal > span{
+        margin-top: 10px;
+        color: #fff;
+    } 
+    .mobile{
+        display: block;
+    }
+    .navDhoe{
+        position: absolute;
+        top: 6vh;
+        left: 0;
+        width: 25vw;
+        height: 100vh;
+        background: #2e4052;
+        justify-content: space-around;
+        transform: translateX(-100%);
+        visibility: hidden;
+        opacity: 0;
+
+    }
+    .navDhoe.active{
+        transform: translate(0);
+        visibility: visible;
+        opacity: 1;
+        
+    }
+    .link.active{
+        margin-left: 0;
+        opacity: 0;
+    }
+}

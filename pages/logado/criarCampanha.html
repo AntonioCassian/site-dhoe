@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/logado.css">
+    <title>Dhoe | O site de vaquinha online</title>
+</head>
+<body>
+    <div class="divisão">
+        <header class="cabecalho-dhoe">
+            <div class="mob-principal" >
+                <div class="mobile">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <span>MENU PRINCIPAL</span>
+            </div>
+            
+            <nav class="navDhoe flex-column">
+                <picture class="logo-dhoe-log flex-column">
+                    <img src="../../image/logo-log.jpg" alt="logo">
+                    <small>NAVEGAÇÃO</small>
+                </picture>
+                <a href="./listaCampanhas.html" class="link ">
+                    <i class="fa-regular fa-list"></i>
+                    Campanhas
+                </a>
+                <a href="./listaCampanhas.html" class="link">
+                    <i class="fa-regular fa-list"></i>
+                     Criar Campanha
+                 </a>
+                 <a href="./gerenciamento.html" class="link">
+                    <i class="fa-regular fa-list"></i>
+                     Gerenciar Acessos
+                 </a>
+                 <a href="./alterarSenha.html" class="link">
+                    <i class="fa-regular fa-list"></i>
+                     Alterar Senha
+                 </a>
+                 <a href="../cliente/cliente.html" class="link">
+                    <i class="fa-regular fa-list"></i>
+                     Sair
+                 </a>
+                 <a href="../../index.html" class="link">
+                    <i class="fa-regular fa-list"></i>
+                     Voltar ao site
+                 </a>
+            </nav>
+        </header>
+   
+    <main class="main">
+        <div class="container c-responsivo">
+            <section class="principal">
+                <h3>Criar Campanha</h3>
+        
+                <div class="englobamento">
+                    <p class="form-text">As respostas que você dará a seguir definirão como sua campanha será. Todo o conteúdo será transformado na página da sua campanha na Internet. Então capriche! E lembre-se, a campanha deve ser uma ação entre amigos com objetivo beneficente e não comercial.</p>
+            
+                        <form action="">
+                            <div class="form-inputs">
+                                <label for="emailCam">Email*</label><br/>
+                                <input type="email" name="emailCampanha" id="emailCam" required>
+                            </div>
+                            <div class="form-inputs">
+                                <label for="contato">Celular de contato*</label><br/>
+                                <input type="tel" name="emailCampanha" id="contato" required>
+                            </div>
+                            <div class="form-inputs">
+                                <label for="nomePessoaCampanha">Nome da pessoa ou instituição que está organizando a campanha*</label><br/>
+                                <input type="text" name="emailCampanha" id="nomePessoaCampanha" required>
+                            </div>
+                            <div class="form-inputs">
+                                <label for="sobrenomeCampanha">Sobrenome</label><br/>
+                                <small>Deixe em branco se quem estiver organizando for uma instituição</small><br/>
+                                <input type="text" name="emailCampanha" id="sobrenomeCampanha">
+                            </div>
+                            <div class="form-inputs">
+                                <label for="nomePessoaCampanha">Nome de quem será beneficiado pela campanha (pessoa ou instituição)*</label><br/>
+                                <input type="text" name="nomePessoaCampanha" id="nomePessoaCampanha" required>
+                            </div>
+            
+                            <div class="form-inputs">
+                                <label for="perfilCampanha">Foto para o perfil (organizador ou beneficiário)*</label><br/>
+                                <small>Faça o upload da foto do organizador ou pessoa/instituição beneficiária da campanha</small><br/>
+                                <input type="file" name="perfilCampanha" id="perfilCampanha" required>
+                            </div>
+                            <div class="form-inputs">
+                                <label for="fotoCampanha">Foto maior da página da campanha*</label><br/>
+                                <small>Faça o upload da foto do que aparecerá maior na página de sua campanha. Pode ser uma foto do organizador, beneficiário, ou qualquer outra que você ache que ilustre bem sua campanha.</small><br/>
+                                <input type="file" name="fotoCampanha" id="fotoCampanha" required>
+                            </div>
+            
+                            <div class="form-inputs">
+                                <label for="textoCampanha">Informe o objetivo da campanha e porque essa é uma ação beneficente ou sem fins lucrativos*</label><br/>
+                                <small>Este é o texto principal que vai explicar porque você criou esta campanha e porque as pessoas devem doar para ela. Seja claro e escreva um texto convincente :)</small><br>
+                                <textarea id="textoCampanha" name="textoCampanha" maxlength="1220" rows="4" cols="50" required>
+            
+                                </textarea>
+                            </div>
+                            <div class="form-inputs">
+                                <label for="valorMeta">Valor da Meta*</label><br/>
+                                <small>Faça o upload da foto do que aparecerá maior na página de sua campanha. Pode ser uma foto do organizador, beneficiário, ou qualquer outra que você ache que ilustre bem sua campanha.</small><br/>
+                                <input type="text" src="" alt="" id="valorMeta" required>
+                            </div>
+                            <div class="form-inputs">
+                                <label for="encerramentoCampanha">Data de encerramento (horário de Brasília)*</label><br>
+                                <small>A data de encerramento não deve ser inferior a 15 dias ou superior a 180 dias da data de criação da campanha.</small><br>
+                                <input type="datetime-local" name="encerramentoCampanha" id="encerramentoCampanha" value="" required>
+                            </div>
+                            <div class="form-inputs">
+                                <label for="nomeTitular">Dados bancários para recebimento da arrecadação após o fim da campanha*
+                                    *</label><br/>
+                                <small>Nome do titular</small><br/>
+                                <input type="text" name="nomeTitular" id="nomeTitular" required>
+                            </div>
+                            <div class="form-inputs">
+                                <label for="pix">Dados bancários para recebimento da arrecadação após o fim da campanha</label><br/>
+                                <small>Chave Pix (somente e-mail)</small><br/>
+                                <input type="text" name="pix" id="pix">
+                            </div>
+                            <div class="form-inputs">
+                                <label for="banco">Dados bancários para recebimento da arrecadação após o fim da campanha</label><br/>
+                                <small>Banco</small><br/>
+                                <input type="text" name="banco" id="banco">
+                            </div>
+                            <div class="form-inputs">
+                                <label for="agencia">Dados bancários para recebimento da arrecadação após o fim da campanha</label><br/>
+                                <small>Agência (quatro números sem o dígito)</small><br/>
+                                <input type="text" name="agencia" id="agencia">
+                            </div>
+                            <div class="form-inputs">
+                                <label for="numConta">Dados bancários para recebimento da arrecadação após o fim da campanha</label><br/>
+                                <small>Número da conta (sem o dígito)</small><br/>
+                                <input type="text" name="numConta" id="numConta">
+                            </div>
+                            <div class="form-inputs">
+                                <label for="digitoConta">Dados bancários para recebimento da arrecadação após o fim da campanha</label><br/>
+                                <small>Dígito da conta</small><br/>
+                                <input type="text" name="digitoConta" id="digitoConta">
+                            </div>
+                            <div class="form-inputs">
+                                <label for="cpf">Dados bancários para recebimento da arrecadação após o fim da campanha</label><br/>
+                                <small>CPF ou CNPJ do titular</small><br/>
+                                <input type="text" name="cpf" id="cpf">
+                            </div>
+                            <div class="check-input">
+                                <input type="checkbox" name="poup" id="poup">
+                                <label for="poup">É conta poupança</label>
+                            </div>
+                            <div class="check-input">
+                                <input type="checkbox" name="poup" id="poup">
+                                <label for="poup">Confirmo que li e aceito o <a href="#">Termo de Uso</a> da Dhoe e que esta campanha tem objetivo beneficente ou não lucrativo*</label>
+                            </div>
+                            
+                            <p class="form-text">Você receberá uma resposta sobre a solicitação de criação da campanha em até 24 horas (mas geralmente bem antes). Fique de olho também na caixa de spam, porque eventualmente nosso email pode ser direcionado para lá pelo seu provedor.</p>
+            
+                            <button class="btn-yellow btn">
+                                ENVIAR SOLICITAÇÃO
+                            </button>
+                        </form>
+                   </div>
+            </section>
+        </div>
+    </main>
+</div>
+    <script src="https://kit.fontawesome.com/d1f8d1354c.js" crossorigin="anonymous"></script>
+    <script src="../../assets/js/mobile.js"></script>
+</body>
+</html>
